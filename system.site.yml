@@ -1,5 +1,6 @@
-name: 'Drupal config installer updated!'
-mail: cam@example.com
+uuid: 543d6b84-c9a6-4fe2-b22d-ecdb8e583eb1
+name: 'Config Installer Site!'
+mail: cam@uq.edu.au
 slogan: ''
 page:
   403: ''
