@@ -1,0 +1,13 @@
+{
+    "name": "uqcgreen/drupal-config",
+    "description": "Configuration files for Drupal",
+    "type": "drupal-config",
+    "authors": [
+        {
+            "name": "Cameron Green",
+            "email": "cam@uq.edu.au"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
