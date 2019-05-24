@@ -1,0 +1,62 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "5f30f0abef93780b78ee761d9efa69cb",
+    "packages": [
+        {
+            "name": "uqcgreen/drupal-config-installer",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/uqcgreen/drupal-config-installer.git",
+                "reference": "613c77e67bb559cb3537d1739c74a92338986de9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/uqcgreen/drupal-config-installer/zipball/613c77e67bb559cb3537d1739c74a92338986de9",
+                "reference": "613c77e67bb559cb3537d1739c74a92338986de9",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0"
+            },
+            "require-dev": {
+                "composer/composer": "^1.3"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "UQ\\Composer\\DrupalConfigInstallerPlugin"
+            },
+            "autoload": {
+                "psr-4": {
+                    "UQ\\Composer\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Cameron Green",
+                    "email": "cam@uq.edu.au"
+                }
+            ],
+            "description": "Drupal Config Installer",
+            "support": {
+                "source": "https://github.com/uqcgreen/drupal-config-installer/tree/master",
+                "issues": "https://github.com/uqcgreen/drupal-config-installer/issues"
+            },
+            "time": "2019-05-24T03:52:17+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "uqcgreen/drupal-config-installer": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

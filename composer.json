@@ -1,13 +1,21 @@
 {
-    "name": "uqcgreen/drupal-config",
-    "description": "Configuration files for Drupal",
-    "type": "drupal-config",
-    "authors": [
-        {
-            "name": "Cameron Green",
-            "email": "cam@uq.edu.au"
-        }
-    ],
-    "minimum-stability": "dev",
-    "require": {}
+  "name": "uqcgreen/drupal-config",
+  "description": "Configuration files for Drupal",
+  "type": "drupal-config",
+  "authors": [
+      {
+          "name": "Cameron Green",
+          "email": "cam@uq.edu.au"
+      }
+  ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "git@github.com:uqcgreen/drupal-config-installer"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "uqcgreen/drupal-config-installer": "dev-master"
+  }
 }
