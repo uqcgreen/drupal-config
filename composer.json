@@ -16,5 +16,6 @@
   ],
   "minimum-stability": "dev",
   "require": {
+    "uqcgreen/drupal-config-installer": "dev-master"
   }
 }
